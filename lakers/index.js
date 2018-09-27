@@ -4,9 +4,9 @@ var bodyParser = require('body-parser');
 var app = express();
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
-app.listen(3000, function(){
-	console.log('connect successfully');
-});
+// app.listen(3000, function(){
+// 	console.log('connect successfully');
+// });
 
 // config ejs
 app.set('view engine','ejs');
